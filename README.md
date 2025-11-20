@@ -1,6 +1,6 @@
 # Embedded Security System (Bare-Metal AVR)
 
-This project implements a hardware-level security controller on the AVR architecture (ATmega328P), designed to demonstrate low-level programming concepts without standard Arduino libraries.
+This project implements a hardware-level security controller on the AVR architecture, designed to demonstrate low-level programming concepts without standard Arduino libraries.
 
 ## Features
 * **Bare-Metal Implementation:** Direct register access for GPIO control (DDR, PORT, PIN registers).
