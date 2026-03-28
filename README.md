@@ -6,7 +6,6 @@ This project implements a hardware-level security controller on the AVR architec
 * **Bare-Metal Implementation:** Direct register access for GPIO control (DDR, PORT, PIN registers).
 * **Interrupt-Driven Panic Mode:** Uses Hardware Interrupts to interrupt the main loop for immediate alarm activation.
 * **Non-Blocking Logic:** Avoids `delay()` for critical path execution.
-* **Debouncing:** Implemented basic signal debouncing logic.
 
 ## Hardware Setup
 * **MCU:** Arduino Uno R3
